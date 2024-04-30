@@ -25,6 +25,7 @@ form{
 .input-group{
     margin-bottom: 30px;
     position: relative;
+    flex: 1;
 }
 
 input, textarea{ 
@@ -70,6 +71,7 @@ textarea:valid~label {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .row .input-group{
