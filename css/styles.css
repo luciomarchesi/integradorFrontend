@@ -32,21 +32,15 @@ input, textarea{
    padding: 10px;
    outline: 0;
    border: 1px solid #fff;
+   color: #fff;
    background: transparent;
    font-size: 15px; 
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
-    color: #fff; /* Cambia el color del texto a blanco */
 }
 
 label{ 
     height: 100%;
     position: absolute;
-    left: 0;
+    left: 10;
     top: 0;
     padding: 10px;
     color: #fff;
