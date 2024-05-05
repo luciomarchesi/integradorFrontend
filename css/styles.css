@@ -85,3 +85,85 @@ textarea:valid~label {
 .input-group label {
     display: inline-block;
 }
+
+.inicio{
+    margin-left: 10px;
+    margin-top: 0px;
+    color: black;
+}
+
+.inicio img{
+    margin-left: 30px;
+}
+
+.menu{
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid grey;
+        border-radius: 0.7em;
+        padding: 1em;
+        overflow: hidden;
+        background-color: #fff;
+}
+
+.menu .info{
+        width: 75%;
+}
+
+.menu .info h4{
+        color:#fdfdff;
+        font-size: 1.2em;
+        font-weight: 500;
+        margin: 0 0 1em;
+        border-bottom: 1px solid #747886;
+        padding-bottom: 0.5em;
+}
+
+    .menu .info p{
+        font-size: 0.8em;
+        line-height: 1.2em;
+}
+    
+    .menu img{
+        border-radius: 0.8em;
+}
+    
+.menu:nth-child(even) img{
+        float: right;
+        margin: 0 0 0 1em;
+}
+
+.menu:nth-child(even) .info{
+        float: left;
+}
+    
+.menu:nth-child(odd) img{
+        float: left;
+        margin: 0 1em 0 0;
+}
+    
+.menu:nth-child(odd) .info{
+        float: right;
+}
+    
+.column {
+        flex: 33.33%;
+        padding: 5px;
+        text-align: center;
+}
+
+iframe{
+    display: flex;
+    margin: 0 auto;
+}
+
+.abajo{
+    background-color:#3551b5 ;
+}
+
+article p{
+    margin-left: 20px;
+}
+
+
+    
