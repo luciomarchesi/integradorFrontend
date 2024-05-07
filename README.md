@@ -22,6 +22,14 @@ Faltar archivos Ej.
 
 se puede cambiarelnombre a registro.html?
 
+4. carpeta css
+
+falta en la carpeta las carpetas individuales de css
+
+- contacto.css
+
+- registro.css
+
 # CRITERIOS DE EVALUACION
 
 ✔ El sitioweb debe tener 4 paginas o 4 secciones.
