@@ -165,5 +165,7 @@ article p{
     margin-left: 20px;
 }
 
-
+.custom-select option {
+    background-color: #000a4b; 
+  }
     

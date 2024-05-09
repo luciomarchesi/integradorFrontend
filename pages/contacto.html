@@ -54,14 +54,12 @@
         </div>
       </div>
       <div class="input-group">
-        <input type="genero" required>
-        <label for="genero"><i class="fa-solid fa-gender"></i>Genero<label>
-            <select name="genero">
-              <option value="selecopt">Seleccione una opción</option>
-              <option value="femenino">Femenino</option>
-              <option value="masculino">Masculino</option>
-            </select>
-          </label>
+        <select name="genero" class="custom-select form-select bg-transparent text-white border border-white rounded-0">
+          <option selected>Género</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
       </div>
       <div class="input-group">
         <input type="email" id="email" required>
