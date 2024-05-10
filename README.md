@@ -15,7 +15,7 @@ La carpeta assets, deberia tener subcarpetas Ej.
 ✔️ El sitioweb debe tener 4 paginas o 4 secciones.
 index, contacto, login,registro
 
-❌ Formulariode contacto con 5 campos (check/radio), ✔️ select, imagen y ✔️ require.
+✔️ Formulario de contacto con 5 campos (check/radio), ✔️ select, ❌imagen y ✔️ require.
 
 ❌ Una pagina responsiva con 3 breack points.
 
@@ -23,12 +23,12 @@ index, contacto, login,registro
 
 ❌ Estructura html maquetada con flexbox o grid.
 
-❌ No deben haber puntos de no retorno, optimizaion de imagenes y favicom.
+✔️ No deben haber puntos de no retorno, optimizaion de imagenes y ✔️favicom.
 
-❌ subirte a unservidoronline y git
+❌ subirte a un servidor online y ✔️git
 
 ❌ nelify o similar
 
 ❌ Bien estructurado con etiquetas semanticas
 
-❌ iframes, iconos, fonts, boobstrap
+✔️iframes, ✔️iconos, ❌fonts, ✔️boobstrap
