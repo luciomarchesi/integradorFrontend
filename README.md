@@ -1,7 +1,5 @@
 # integradorFrontend
 
-
-
 1. assets
 
 La carpeta assets, deberia tener subcarpetas Ej.
@@ -10,30 +8,12 @@ La carpeta assets, deberia tener subcarpetas Ej.
 - audio
 - video
 
-2. carpeta js
-
-Faltar archivos Ej.
-
-- registro.js
-- contacto.js
-- login. js
-
-3. registrarse.html
-
-se puede cambiarelnombre a registro.html?
-
-4. carpeta css
-
-falta en la carpeta las carpetas individuales de css
-
-- contacto.css
-
-- registro.css
+2. etiquetas semanticas index.html linea 64/88
 
 # CRITERIOS DE EVALUACION
 
 ✔ El sitioweb debe tener 4 paginas o 4 secciones.
-    index, contacto, login,registro
+index, contacto, login,registro
 
 ❌ Formulariode contacto con 5 campos (check/radio), select, imagen y require.
 

@@ -102,7 +102,7 @@ footer .website-logo {
 .social-link {
   height: 100%;
   width: 30px;
-  background-image: url(../assets/img/FacebookBlanco.png);
+  background-image: url(../assets/img/facebook.png);
   background-size: 70%;
   background-position: center;
   margin-right: 1rem;
@@ -114,12 +114,12 @@ footer .website-logo {
 }
 
 footer .social-link:nth-of-type(2) {
-  background-image: url(TwitterBlanco.png);
+  background-image: url(../assets/img/gorjeo.png);
 }
 
 footer .social-link:nth-of-type(3) {
   /*Nth of type inside that container*/
-  background-image: url(../assets/img/LinkedinBlanco.png);
+  background-image: url(../assets/img/linkedin.png);
 }
 
 /*MEDIA QUERY*/
