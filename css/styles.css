@@ -2,8 +2,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
+}
+
+head{
+    font-family: sans-serif;
 }
 
 .hero{
@@ -94,6 +97,9 @@ textarea:valid~label {
     padding-left: 4em;
     padding-right: 4em;
     font-size:large;
+    font-family: "Inria Serif", serif;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .inicio img{
@@ -107,7 +113,7 @@ textarea:valid~label {
         border-radius: 0.7em;
         padding: 1em;
         overflow: hidden;
-        background-color: #fff;
+        background-color: #4882fdfb;
 }
 
 .menu .info{
@@ -115,6 +121,7 @@ textarea:valid~label {
         font-size: larger;
         background-color: aquamarine;
         border: solid grey;
+        border-radius: 0.8em;
 }
 
 .menu .info h4{
@@ -160,6 +167,11 @@ textarea:valid~label {
         text-align: center;
 }
 
+h2 {
+    color:rgb(154, 224, 203);
+    margin-left: 10px;
+}
+
 iframe{
     display: flex;
     margin: 0 auto;
@@ -167,10 +179,18 @@ iframe{
 
 .abajo{
     background-color:#3551b5 ;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 article p{
     margin-left: 20px;
+    color:rgb(154, 224, 203);
+}
+
+.carousel-inner{
+    margin-left: 250px;
 }
 
 .custom-select option {
