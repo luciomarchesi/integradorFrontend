@@ -191,6 +191,7 @@ article p{
 
 .carousel-inner{
     margin-left: 250px;
+    margin: auto;
 }
 
 .custom-select option {
