@@ -189,8 +189,7 @@ article p{
     color:rgb(154, 224, 203);
 }
 
-.carousel-inner{
-    margin-left: 250px;
+.carousel-inner img{
     margin: auto;
 }
 
