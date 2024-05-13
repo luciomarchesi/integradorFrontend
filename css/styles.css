@@ -107,11 +107,10 @@ textarea:valid~label {
 }
 
 .menu{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 15px;
         border: 1px solid grey;
         border-radius: 0.7em;
-        padding: 1em;
+        padding: 10px;
         overflow: hidden;
         background-color: #4882fdfb;
 }
@@ -134,12 +133,13 @@ textarea:valid~label {
         padding-bottom: 0.5em;
 }
 
-    .menu .info p{
+.menu .info p{
         font-size: 0.8em;
         line-height: 1.2em;
+        padding-left: 10px;
 }
     
-    .menu img{
+.menu img{
         border-radius: 0.8em;
 }
     
