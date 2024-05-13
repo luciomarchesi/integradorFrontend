@@ -1,0 +1,9 @@
+.row .input-group {
+  flex-basis: 48%;
+}
+
+@media (max-width: 768px) {
+  .row .input-group {
+    flex-basis: 50%;
+  }
+}

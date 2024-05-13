@@ -77,9 +77,6 @@ textarea:valid~label {
     gap: 10px;
 }
 
-.row .input-group{
-    flex-basis: 48%;
-}
 
 .input-group input[type="radio"] {
     margin-right: 10px; /* Ajusta este valor según lo necesites */
