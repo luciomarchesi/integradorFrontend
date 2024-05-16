@@ -79,7 +79,7 @@ textarea:valid ~ label {
 }
 
 .input-group input[type="radio"] {
-  margin-right: 10px; /* Ajusta este valor según lo necesites */
+  margin-right: 10px;
 }
 
 .input-group label {
@@ -90,13 +90,12 @@ textarea:valid ~ label {
   text-align: center;
   margin-left: 10px;
   margin-top: 0px;
-  color: rgb(154, 224, 203);
+  color: rgb(200, 241, 229);
   padding-left: 4em;
   padding-right: 4em;
   font-size: large;
   font-family: "Inria Serif", serif;
   font-weight: 500;
-  font-style: italic;
 }
 
 .inicio img {
@@ -161,10 +160,10 @@ h5 {
 
 .menu .info h4 {
   background-color: cadetblue;
-  color: #fff;
+  color: rgb(200, 241, 229);
   font-size: 1.2em;
   font-weight: 500;
-  margin: 0 0 1em;
+  margin: 0 0 0.5em;
   border-bottom: 1px solid #747886;
   padding-left: 10px;
   padding-bottom: 0.3em;
@@ -173,12 +172,12 @@ h5 {
 
 .menu .info p {
   font-size: 0.8em;
-  line-height: 1.2em;
-  padding-left: 10px;
+  line-height: 1.4em;
+  padding-left: 19px;
 }
 
 .info p {
-  color: rgb(154, 224, 203);
+  color: rgb(200, 241, 229);
 }
 
 .menu img {
@@ -224,7 +223,6 @@ iframe {
   background-color: #3551b5;
   font-family: "Inria Serif", serif;
   font-weight: 700;
-  font-style: italic;
 }
 
 article p {
