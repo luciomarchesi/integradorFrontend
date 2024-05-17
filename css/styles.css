@@ -1,13 +1,23 @@
+/*---------------------------------HEAD---------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 head {
   font-family: sans-serif;
 }
+/*---------------------------------END HEAD---------------------------------------------------*/
 
+/*---------------------------------HEADER---------------------------------------------------*/
+/*        VACIO             */
+/*--------------------------------- END HEADER---------------------------------------------------*/
+
+/*---------------------------------NAV---------------------------------------------------*/
+/*        BOBSTRAP             */
+/*--------------------------------- END NAV---------------------------------------------------*/
+
+/*--------------------------------- MAIN---------------------------------------------------*/
 .hero {
   width: 100%;
   height: 100vh;
@@ -19,6 +29,167 @@ head {
   align-items: center;
   justify-content: center;
 }
+
+.inicio {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 0px;
+  color: rgb(200, 241, 229);
+  padding-left: 4em;
+  padding-right: 4em;
+  font-size: large;
+  font-family: "Inria Serif", serif;
+  font-weight: 500;
+}
+
+.inicio img {
+  width: 30%;
+  border-radius: 0.8em;
+}
+
+h1 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h5 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.inicio img {
+  margin-left: 30px;
+}
+
+/*--------------------------------- END MAIN ---------------------------------------------------*/
+
+/*--------------------------------- ASIDE ---------------------------------------------------*/
+
+.menu {
+  margin: 15px;
+  border: 1px solid grey;
+  border-radius: 0.7em;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #3591b5;
+}
+
+.menu .info {
+  width: 75%;
+  font-size: larger;
+  background-color: #516ccc;
+  border: solid grey;
+  border-radius: 0.8em;
+}
+
+.menu .info h4 {
+  background-color: cadetblue;
+  color: rgb(200, 241, 229);
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 0 0.5em;
+  border-bottom: 1px solid #747886;
+  padding-left: 10px;
+  padding-bottom: 0.3em;
+  border-radius: 0.4em;
+}
+
+.menu .info p {
+  font-size: 0.8em;
+  line-height: 1.4em;
+  padding-left: 19px;
+}
+
+.info p {
+  color: rgb(200, 241, 229);
+}
+
+.menu img {
+  border-radius: 0.8em;
+  width: 19%;
+}
+
+.menu:nth-child(even) img {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.menu:nth-child(even) .info {
+  float: left;
+}
+
+.menu:nth-child(odd) img {
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+.menu:nth-child(odd) .info {
+  float: right;
+}
+
+h2 {
+  color: rgb(154, 224, 203);
+  margin-left: 10px;
+}
+
+iframe {
+  display: flex;
+  margin: 0 auto;
+}
+
+.abajo {
+  background-color: #3551b5;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+}
+
+article p {
+  margin-left: 20px;
+  color: rgb(154, 224, 203);
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.custom-select option {
+  background-color: #000a4b;
+}
+
+/*--------------------------------- END ASIDE ---------------------------------------------------*/
+
+/*NO SE DONDE APARECE ESTA CLASE*/
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+
+/*--------------------------------- ESTO NO IRIA EN CONTACTO.CSS------------------------------------*/
 
 form {
   width: 90%;
@@ -85,155 +256,4 @@ textarea:valid ~ label {
 .input-group label {
   display: inline-block;
 }
-
-.inicio {
-  text-align: center;
-  margin-left: 10px;
-  margin-top: 0px;
-  color: rgb(200, 241, 229);
-  padding-left: 4em;
-  padding-right: 4em;
-  font-size: large;
-  font-family: "Inria Serif", serif;
-  font-weight: 500;
-}
-
-.inicio img {
-  width: 30%;
-  border-radius: 0.8em;
-}
-
-h1 {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-h5 {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-.inicio img {
-  margin-left: 30px;
-}
-
-.menu {
-  margin: 15px;
-  border: 1px solid grey;
-  border-radius: 0.7em;
-  padding: 10px;
-  overflow: hidden;
-  background-color: #3591b5;
-}
-
-.menu .info {
-  width: 75%;
-  font-size: larger;
-  background-color: #516ccc;
-  border: solid grey;
-  border-radius: 0.8em;
-}
-
-.menu .info h4 {
-  background-color: cadetblue;
-  color: rgb(200, 241, 229);
-  font-size: 1.2em;
-  font-weight: 500;
-  margin: 0 0 0.5em;
-  border-bottom: 1px solid #747886;
-  padding-left: 10px;
-  padding-bottom: 0.3em;
-  border-radius: 0.4em;
-}
-
-.menu .info p {
-  font-size: 0.8em;
-  line-height: 1.4em;
-  padding-left: 19px;
-}
-
-.info p {
-  color: rgb(200, 241, 229);
-}
-
-.menu img {
-  border-radius: 0.8em;
-  width: 19%;
-}
-
-.menu:nth-child(even) img {
-  float: right;
-  margin: 0 0 0 1em;
-}
-
-.menu:nth-child(even) .info {
-  float: left;
-}
-
-.menu:nth-child(odd) img {
-  float: left;
-  margin: 0 1em 0 0;
-}
-
-.menu:nth-child(odd) .info {
-  float: right;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-  text-align: center;
-}
-
-h2 {
-  color: rgb(154, 224, 203);
-  margin-left: 10px;
-}
-
-iframe {
-  display: flex;
-  margin: 0 auto;
-}
-
-.abajo {
-  background-color: #3551b5;
-  font-family: "Inria Serif", serif;
-  font-weight: 700;
-}
-
-article p {
-  margin-left: 20px;
-  color: rgb(154, 224, 203);
-}
-
-.carousel-inner img {
-  margin: auto;
-}
-
-.custom-select option {
-  background-color: #000a4b;
-}
+/*--------------------------------- ESTO NO IRIA EN CONTACTO.CSS------------------------------------*/
