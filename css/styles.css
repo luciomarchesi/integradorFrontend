@@ -13,11 +13,6 @@ body {
   flex-direction: column;
 }
 
-main {
-  flex: 1;
-  padding-bottom: 205px;
-}
-
 .hero {
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), #9e3c18),
@@ -28,7 +23,7 @@ main {
 }
 
 .inicio {
-  text-align: justify;
+  text-align: center;
   color: rgb(255, 255, 255);
   font-size: large;
   font-weight: 300;
@@ -77,5 +72,10 @@ main {
 
 .carousel-inner img {
   margin: auto;
+}
+
+.card-limited {
+  max-width: 600px; /* Ajusta este valor según tus necesidades */
+  margin: auto; /* Centrar la tarjeta si es más pequeña que el contenedor */
 }
 /*--------------------------------- END MAIN ---------------------------------------------------*/

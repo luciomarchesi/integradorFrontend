@@ -19,7 +19,7 @@
     />
   </head>
 
-  <body class="hero">
+  <body class="d-flex flex-column min-vh-100">
     <header>
       <nav
         class="navbar navbar-expand-lg navbar-dark bg-dark p-3"
@@ -67,38 +67,42 @@
       </nav>
     </header>
 
-    <div class="wrapper">
-      <form action="" id="loginForm">
-        <h1>Iniciar sesión</h1>
-        <div class="input-box">
-          <input type="text" placeholder="Usuario" id="InputEmail" required />
-          <i class="bx bxs-user user-icon"></i>
-        </div>
-        <div class="input-box" id="input-pass">
-          <input
-            type="password"
-            placeholder="Contraseña"
-            id="InputPassword"
-            required
-          />
-          <i class="bx bxs-lock-alt lock-icon"></i>
-        </div>
-        <div class="remember-forgot">
-          <label><input type="checkbox" />Recordarme</label>
-          <a href="#">¿Olvidó su contraseña?</a>
-        </div>
-        <button type="submit" class="btn">Iniciar sesión</button>
-        <div class="register-link">
-          <p>
-            ¿No posee cuenta?<a href="../pages/registrarse.html">
-              Registrarse</a
-            >
-          </p>
-        </div>
-      </form>
-    </div>
+    <main
+      class="hero flex-grow-1 d-flex justify-content-center align-items-center"
+    >
+      <div class="wrapper">
+        <form action="" id="loginForm">
+          <h1>Iniciar sesión</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Usuario" id="InputEmail" required />
+            <i class="bx bxs-user user-icon"></i>
+          </div>
+          <div class="input-box" id="input-pass">
+            <input
+              type="password"
+              placeholder="Contraseña"
+              id="InputPassword"
+              required
+            />
+            <i class="bx bxs-lock-alt lock-icon"></i>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox" />Recordarme</label>
+            <a href="#">¿Olvidó su contraseña?</a>
+          </div>
+          <button type="submit" class="btn">Iniciar sesión</button>
+          <div class="register-link">
+            <p>
+              ¿No posee cuenta?<a href="../pages/registrarse.html">
+                Registrarse</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
 
-    <footer class="footer-position">
+    <footer class="mt-auto">
       <div class="footer-container navbar-dark bg-dark">
         <div class="footer-content-container">
           <h3 class="website-logo">La cocina de Juan</h3>
