@@ -75,7 +75,7 @@ body {
 }
 
 .card-limited {
-  max-width: 600px; /* Ajusta este valor según tus necesidades */
-  margin: auto; /* Centrar la tarjeta si es más pequeña que el contenedor */
+  max-width: 600px;
+  margin: auto;
 }
 /*--------------------------------- END MAIN ---------------------------------------------------*/
