@@ -30,7 +30,9 @@ form.addEventListener("submit", (e) => {
   } else {
     console.log(user.value.trim());
     console.log(pass.value);
+    form.reset();
     alert("credenciales correctas");
+    window.location.href = "login.html";
   }
 });
 
