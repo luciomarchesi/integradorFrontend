@@ -18,6 +18,8 @@ Al meenos un numero del 0 al 9
 */
 const passwordRegex = /^(?=.*[A-Z])(?=.*[0-9])(?=.*[\W_]).{8,}$/;
 
+user.focus();
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   if (!emailRegex.test(user.value)) {
