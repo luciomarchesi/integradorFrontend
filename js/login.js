@@ -1,6 +1,9 @@
 const userlogueado = JSON.parse(localStorage.getItem("user"));
 const userLoged = document.getElementById("dropdown");
 const userName = document.getElementById("userName");
+var user1 = document.getElementById("InputEmail");
+
+user1.focus();
 
 document
   .getElementById("loginForm")
