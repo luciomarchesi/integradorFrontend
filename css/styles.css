@@ -22,11 +22,6 @@ body {
   padding: 30px;
 }
 
-h1 {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -39,21 +34,10 @@ h1 {
   }
 }
 
+h1,
 .fs-5 {
   animation-duration: 3s;
   animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 .inicio {
