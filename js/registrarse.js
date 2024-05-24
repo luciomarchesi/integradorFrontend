@@ -20,7 +20,7 @@ form.addEventListener("submit", (e) => {
     alert("Por favor, introduce un correo electrónico válido");
   } else if (!passwordRegex.test(pass.value)) {
     alert(
-      "La contraseña debe poseer al menos 8 caracteres, al menos una letra mayúscula al menos un carácter especial y al menos un numero del 0 al 9"
+      "La contraseña debe poseer minimo 8 caracteres, al menos una letra mayúscula, al menos un carácter especial y al menos un numero del 0 al 9"
     );
     return false;
   } else {
